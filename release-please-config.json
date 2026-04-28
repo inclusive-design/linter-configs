@@ -1,0 +1,22 @@
+{
+	"$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+	"include-component-in-tag": true,
+	"include-v-in-tag": true,
+	"tag-separator": "@",
+	"separate-pull-requests": true,
+	"pull-request-title-pattern": "chore(release): release ${version}",
+	"packages": {
+		"@inclusive-design/eslint-config": {
+			"path": "eslint",
+			"release-type": "node"
+		},
+		"@inclusive-design/markdownlint-config": {
+			"path": "eslint",
+			"release-type": "node"
+		},
+		"@inclusive-design/stylelint-config": {
+			"path": "eslint",
+			"release-type": "node"
+		}
+	}
+}

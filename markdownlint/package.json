@@ -1,0 +1,26 @@
+{
+	"name": "@inclusive-design/markdownlint-config",
+	"version": "0.1.2",
+	"description": "Shareable Markdownlint configuration for the Inclusive Design Research Centre.",
+	"main": "index.js",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/inclusive-design/eslint-config.git"
+	},
+	"keywords": [
+		"markdownlint"
+	],
+	"author": {
+		"name": "OCAD University",
+		"email": "idrc@ocadu.ca"
+	},
+	"license": "BSD-3-Clause",
+	"bugs": {
+		"url": "https://github.com/inclusive-design/markdownlint-config/issues"
+	},
+	"homepage": "https://github.com/inclusive-design/markdownlint-config#readme",
+	"dependencies": {
+		"markdownlint-cli2": "^0.22.0"
+	}
+}

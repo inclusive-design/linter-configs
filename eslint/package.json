@@ -1,0 +1,30 @@
+{
+	"name": "@inclusive-design/eslint-config",
+	"version": "0.4.0",
+	"description": "Shareable ESLint configuration for the Inclusive Design Research Centre.",
+	"main": "index.js",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/inclusive-design/eslint-config.git"
+	},
+	"keywords": [
+		"eslint"
+	],
+	"author": {
+		"name": "OCAD University",
+		"email": "idrc@ocadu.ca"
+	},
+	"license": "BSD-3-Clause",
+	"bugs": {
+		"url": "https://github.com/inclusive-design/eslint-config/issues"
+	},
+	"homepage": "https://github.com/inclusive-design/eslint-config#readme",
+	"dependencies": {
+		"@eslint/json": "^1.2.0",
+		"@eslint/markdown": "^8.0.1",
+		"eslint": "^10.2.1",
+		"eslint-config-xo": "^0.51.0",
+		"eslint-plugin-jsdoc": "^62.9.0"
+	}
+}
