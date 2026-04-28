@@ -5,7 +5,8 @@
 	"workspaces": [
 		"eslint",
 		"markdownlint",
-		"stylelint"
+		"stylelint",
+		"packages/eslint-config"
 	],
 	"scripts": {
 		"lint": "run-s -l lint:*",

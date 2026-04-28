@@ -4,17 +4,17 @@
 	"include-v-in-tag": true,
 	"tag-separator": "@",
 	"separate-pull-requests": true,
-	"pull-request-title-pattern": "chore(release): release ${version}",
+	"pull-request-title-pattern": "chore(release): release ${component} ${version}",
 	"packages": {
-		"eslint": {
+		"packages/eslint-config": {
 			"package-name": "@inclusive-design/eslint-config",
 			"release-type": "node"
 		},
-		"markdownlint": {
+		"packages/markdownlint-config": {
 			"package-name": "@inclusive-design/markdownlint-config",
 			"release-type": "node"
 		},
-		"stylelint": {
+		"packages/stylelint-config": {
 			"package-name": "@inclusive-design/stylelint-config",
 			"release-type": "node"
 		}
