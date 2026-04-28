@@ -6,16 +6,16 @@
 	"separate-pull-requests": true,
 	"pull-request-title-pattern": "chore(release): release ${version}",
 	"packages": {
-		"@inclusive-design/eslint-config": {
-			"path": "eslint",
+		"eslint": {
+			"package-name": "@inclusive-design/eslint-config",
 			"release-type": "node"
 		},
-		"@inclusive-design/markdownlint-config": {
-			"path": "eslint",
+		"markdownlint": {
+			"package-name": "@inclusive-design/markdownlint-config",
 			"release-type": "node"
 		},
-		"@inclusive-design/stylelint-config": {
-			"path": "eslint",
+		"stylelint": {
+			"package-name": "@inclusive-design/stylelint-config",
 			"release-type": "node"
 		}
 	}
