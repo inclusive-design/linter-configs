@@ -1,4 +1,4 @@
-import markdownlintConfig from './markdownlint/index.js';
+import markdownlintConfig from './packages/markdownlint-config/index.js';
 
 export default {
 	config: markdownlintConfig.config,

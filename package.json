@@ -3,9 +3,9 @@
 	"name": "monorepo",
 	"type": "module",
 	"workspaces": [
-		"eslint",
-		"markdownlint",
-		"stylelint"
+		"packages/eslint-config",
+		"packages/markdownlint-config",
+		"packages/stylelint-config"
 	],
 	"scripts": {
 		"lint": "run-s -l lint:*",
@@ -20,6 +20,7 @@
 		"eslint": "^10.2.1",
 		"husky": "^9.1.7",
 		"lint-staged": "^16.4.0",
+		"markdownlint-cli2": "^0.22.1",
 		"npm-run-all2": "^8.0.4"
 	},
 	"lint-staged": {
