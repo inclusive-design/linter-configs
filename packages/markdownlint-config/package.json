@@ -22,9 +22,5 @@
 	"homepage": "https://github.com/inclusive-design/markdownlint-config#readme",
 	"dependencies": {
 		"markdownlint-cli2": "^0.22.0"
-	},
-	"devDependencies": {
-		"@inclusive-design/eslint-config": "^0.4.0",
-		"@inclusive-design/markdownlint-config": "^0.1.2"
 	}
 }

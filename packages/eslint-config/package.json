@@ -26,9 +26,5 @@
 		"eslint": "^10.2.1",
 		"eslint-config-xo": "^0.51.0",
 		"eslint-plugin-jsdoc": "^62.9.0"
-	},
-	"devDependencies": {
-		"@inclusive-design/eslint-config": "^0.4.0",
-		"@inclusive-design/markdownlint-config": "^0.1.2"
 	}
 }
