@@ -5,11 +5,7 @@
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
-		"lint": "run-s -l lint:*",
-		"lint:markdownlint": "markdownlint-cli2 \"**/*.md\"",
-		"lint:eslint": "eslint",
-		"test": "node --test",
-		"prepare": "husky"
+		"test": "node --test test/*.test.js"
 	},
 	"repository": {
 		"type": "git",

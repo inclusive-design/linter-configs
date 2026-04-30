@@ -4,6 +4,6 @@ import eslintConfigInclusiveDesign from './packages/eslint-config/index.js';
 export default defineConfig([
 	eslintConfigInclusiveDesign,
 	{
-		ignores: ['test/fixtures/eslint/*'],
+		ignores: ['packages/eslint-config/test/fixtures/bad/*'],
 	},
 ]);
