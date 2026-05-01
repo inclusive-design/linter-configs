@@ -20,6 +20,9 @@
 		"url": "https://github.com/inclusive-design/eslint-config/issues"
 	},
 	"homepage": "https://github.com/inclusive-design/eslint-config#readme",
+	"scripts": {
+		"test": "node --test test/*.test.js"
+	},
 	"dependencies": {
 		"@eslint/json": "^1.2.0",
 		"@eslint/markdown": "^8.0.1",
