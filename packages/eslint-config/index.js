@@ -19,6 +19,7 @@ export default defineConfig([
 				allowObject: true,
 			}],
 			'no-warning-comments': ['error', {terms: ['fixme', 'fix']}],
+			'unicorn/no-null': 'off',
 		},
 	},
 	{
