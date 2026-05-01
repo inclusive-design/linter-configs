@@ -20,6 +20,9 @@
 		"url": "https://github.com/inclusive-design/markdownlint-config/issues"
 	},
 	"homepage": "https://github.com/inclusive-design/markdownlint-config#readme",
+	"scripts": {
+		"test": "node --test test/*.test.js"
+	},
 	"dependencies": {
 		"markdownlint-cli2": "^0.22.0"
 	}

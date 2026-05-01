@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert';
-import config from '../packages/markdownlint-config/index.js';
+import config from '../index.js';
 
-test('markdownlintConfig', async () => {
+test('stylelintConfig', async () => {
 	assert.ok(typeof config === 'object');
 });

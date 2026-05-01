@@ -1,15 +1,11 @@
 {
 	"name": "@inclusive-design/stylelint-config",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Shareable Stylelint configuration for the Inclusive Design Research Centre.",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
-		"lint": "run-s -l lint:*",
-		"lint:markdownlint": "markdownlint-cli2 \"**/*.md\"",
-		"lint:eslint": "eslint",
-		"test": "node --test",
-		"prepare": "husky"
+		"test": "node --test test/*.test.js"
 	},
 	"repository": {
 		"type": "git",
