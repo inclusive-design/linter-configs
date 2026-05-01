@@ -19,6 +19,7 @@ export default defineConfig([
 				allowObject: true,
 			}],
 			'no-warning-comments': ['error', {terms: ['fixme', 'fix']}],
+			'@stylistic/arrow-parens': ['error', 'always'],
 		},
 	},
 	{

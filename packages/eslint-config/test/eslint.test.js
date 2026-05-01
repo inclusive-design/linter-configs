@@ -4,7 +4,7 @@ import {readFile} from 'node:fs/promises';
 import {ESLint} from 'eslint';
 import eslintConfig from '../index.js';
 
-const hasRule = (errors, ruleId) => errors.some(error => error.ruleId === ruleId);
+const hasRule = (errors, ruleId) => errors.some((error) => error.ruleId === ruleId);
 
 /**
  * @param {string} string The string against which ESLint should be run.
