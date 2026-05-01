@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/inclusive-design/linter-configs/compare/markdownlint-config@v0.1.2...markdownlint-config@v0.1.3) (2026-05-01)
+
+
+### Bug Fixes
+
+* restructure as monorepo ([58bcf45](https://github.com/inclusive-design/linter-configs/commit/58bcf45f4d6ddcd53e76684aa9c38f220592e3a7))
+
 ## [0.1.2](https://github.com/inclusive-design/markdownlint-config/compare/v0.1.1...v0.1.2) (2026-04-22)
 
 
