@@ -13,6 +13,7 @@ export default defineConfig([
 		],
 		rules: {
 			camelcase: ['error', {properties: 'never'}],
+			eqeqeq: ['error', 'always'],
 			'import-x/no-anonymous-default-export': ['error', {
 				allowArray: true,
 				allowLiteral: true,
