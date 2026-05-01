@@ -1,6 +1,6 @@
 {
 	"name": "@inclusive-design/stylelint-config",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Shareable Stylelint configuration for the Inclusive Design Research Centre.",
 	"main": "index.js",
 	"type": "module",

@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/inclusive-design/linter-configs/compare/stylelint-config@v0.1.1...stylelint-config@v0.1.2) (2026-05-01)
+
+
+### Bug Fixes
+
+* restructure as monorepo ([58bcf45](https://github.com/inclusive-design/linter-configs/commit/58bcf45f4d6ddcd53e76684aa9c38f220592e3a7))
+
 ## [0.1.1](https://github.com/inclusive-design/stylelint-config/compare/v0.1.0...v0.1.1) (2026-04-28)
 
 
