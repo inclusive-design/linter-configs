@@ -18,6 +18,7 @@ export default defineConfig([
 				allowLiteral: true,
 				allowObject: true,
 			}],
+			'no-warning-comments': ['error', {terms: ['fixme', 'fix']}],
 		},
 	},
 	{
