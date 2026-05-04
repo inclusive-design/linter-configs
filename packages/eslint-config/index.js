@@ -18,7 +18,7 @@ export default defineConfig([
 				allowLiteral: true,
 				allowObject: true,
 			}],
-			'no-warning-comments': ['error', {terms: ['fixme', 'fix']}],
+			'no-warning-comments': ['error', { terms: ['fixme', 'fix'] }],
 			'unicorn/no-null': 'off',
 			'@stylistic/object-curly-spacing': ['error', 'always'],
 		},
