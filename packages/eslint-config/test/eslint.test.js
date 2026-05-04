@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert';
-import {readFile} from 'node:fs/promises';
-import {ESLint} from 'eslint';
+import { readFile } from 'node:fs/promises';
+import { ESLint } from 'eslint';
 import eslintConfig from '../index.js';
 
 const hasRule = (errors, ruleId) => errors.some(error => error.ruleId === ruleId);
@@ -18,7 +18,7 @@ async function runEslint(string, config, fileExtension = 'js') {
 		overrideConfig: config,
 	});
 
-	const [firstResult] = await eslint.lintText(string, {filePath: `test.${fileExtension}`});
+	const [firstResult] = await eslint.lintText(string, { filePath: `test.${fileExtension}` });
 	return firstResult.messages;
 }
 
