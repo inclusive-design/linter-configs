@@ -6,7 +6,7 @@
 	"type": "module",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/inclusive-design/eslint-config.git"
+		"url": "git+https://github.com/inclusive-design/linter-configs.git"
 	},
 	"keywords": [
 		"eslint"
@@ -17,9 +17,9 @@
 	},
 	"license": "BSD-3-Clause",
 	"bugs": {
-		"url": "https://github.com/inclusive-design/eslint-config/issues"
+		"url": "https://github.com/inclusive-design/linter-configs/issues"
 	},
-	"homepage": "https://github.com/inclusive-design/eslint-config#readme",
+	"homepage": "https://github.com/inclusive-design/linter-configs/blob/main/packages/eslint-config/README.md",
 	"scripts": {
 		"test": "node --test test/*.test.js"
 	},
