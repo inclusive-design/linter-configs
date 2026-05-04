@@ -20,6 +20,7 @@ export default defineConfig([
 			}],
 			'no-warning-comments': ['error', { terms: ['fixme', 'fix'] }],
 			'unicorn/no-null': 'off',
+			'@stylistic/arrow-parens': ['error', 'always'],
 			'@stylistic/object-curly-spacing': ['error', 'always'],
 		},
 	},
