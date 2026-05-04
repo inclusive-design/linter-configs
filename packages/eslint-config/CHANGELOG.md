@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.5.0](https://github.com/inclusive-design/linter-configs/compare/eslint-config@v0.4.0...eslint-config@v0.5.0) (2026-05-04)
+
+
+### Features
+
+* allow TODO comments (resolves inclusive-design/eslint-config[#56](https://github.com/inclusive-design/linter-configs/issues/56)) ([#5](https://github.com/inclusive-design/linter-configs/issues/5)) ([da7bb99](https://github.com/inclusive-design/linter-configs/commit/da7bb99e4bd1caaee0e9b9474ad3b550b260d7c6))
+* always require parenthesis for arrow functions (resolves [#9](https://github.com/inclusive-design/linter-configs/issues/9)) ([#21](https://github.com/inclusive-design/linter-configs/issues/21)) ([c880521](https://github.com/inclusive-design/linter-configs/commit/c880521cc482f05753d22bdea2d567985950eb0b))
+* disable unicorn/no-null (resolves [#11](https://github.com/inclusive-design/linter-configs/issues/11)) ([#22](https://github.com/inclusive-design/linter-configs/issues/22)) ([169fbe8](https://github.com/inclusive-design/linter-configs/commit/169fbe8315f71d1b47df607655974970eeb01d51))
+* require spaces within object curly braces (resolves [#8](https://github.com/inclusive-design/linter-configs/issues/8)) ([#20](https://github.com/inclusive-design/linter-configs/issues/20)) ([b5acc54](https://github.com/inclusive-design/linter-configs/commit/b5acc544cb87b29a77482aebc99b188a2a9a936a))
+
+
+### Bug Fixes
+
+* restructure as monorepo ([58bcf45](https://github.com/inclusive-design/linter-configs/commit/58bcf45f4d6ddcd53e76684aa9c38f220592e3a7))
+
 ## [0.4.0](https://github.com/inclusive-design/eslint-config/compare/v0.3.1...v0.4.0) (2026-04-28)
 
 
