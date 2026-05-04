@@ -1,4 +1,4 @@
-import {defineConfig} from 'eslint/config';
+import { defineConfig } from 'eslint/config';
 import eslintConfigXo from 'eslint-config-xo';
 import jsdoc from 'eslint-plugin-jsdoc';
 import markdown from '@eslint/markdown';
@@ -8,11 +8,11 @@ export default defineConfig([
 	{
 		files: ['**/*.js', '**/*.cjs', '**/*.mjs'],
 		extends: [
-			eslintConfigXo({browser: true}),
+			eslintConfigXo({ browser: true }),
 			jsdoc.configs['flat/recommended'],
 		],
 		rules: {
-			camelcase: ['error', {properties: 'never'}],
+			camelcase: ['error', { properties: 'never' }],
 			'import-x/no-anonymous-default-export': ['error', {
 				allowArray: true,
 				allowLiteral: true,
@@ -20,18 +20,19 @@ export default defineConfig([
 			}],
 			'no-warning-comments': ['error', {terms: ['fixme', 'fix']}],
 			'@stylistic/arrow-parens': ['error', 'always'],
+			'@stylistic/object-curly-spacing': ['error', 'always'],
 		},
 	},
 	{
 		files: ['**/*.json'],
 		ignores: ['package-lock.json'],
-		plugins: {json},
+		plugins: { json },
 		language: 'json/json',
 		extends: ['json/recommended'],
 	},
 	{
 		files: ['**/*.jsonc'],
-		plugins: {json},
+		plugins: { json },
 		language: 'json/jsonc',
 		extends: ['json/recommended'],
 	},
