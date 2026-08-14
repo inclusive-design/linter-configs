@@ -22,7 +22,7 @@ async function runEslint(string, config, fileExtension = 'js') {
 	return firstResult.messages;
 }
 
-test('eslintConfig', async () => {
+test('eslintConfig', () => {
 	assert.ok(Array.isArray(eslintConfig));
 });
 

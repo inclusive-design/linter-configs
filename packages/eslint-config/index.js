@@ -9,9 +9,9 @@ export default defineConfig([
 		files: ['**/*.js', '**/*.cjs', '**/*.mjs'],
 		extends: [
 			eslintConfigXo({ browser: true }),
-			jsdoc.configs['flat/recommended'],
 		],
 		rules: {
+			...jsdoc.configs['flat/recommended'].rules,
 			camelcase: ['error', { properties: 'never' }],
 			'import-x/no-anonymous-default-export': ['error', {
 				allowArray: true,
