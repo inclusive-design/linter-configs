@@ -27,7 +27,7 @@
 		"@eslint/json": "^2.0.0",
 		"@eslint/markdown": "^8.0.1",
 		"eslint": "^10.2.1",
-		"eslint-config-xo": "^0.58.0",
+		"eslint-config-xo": "^1.0.0",
 		"eslint-plugin-jsdoc": "^64.0.0"
 	}
 }
