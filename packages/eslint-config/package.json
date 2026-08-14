@@ -24,7 +24,7 @@
 		"test": "node --test test/*.test.js"
 	},
 	"dependencies": {
-		"@eslint/json": "^1.2.0",
+		"@eslint/json": "^2.0.0",
 		"@eslint/markdown": "^8.0.1",
 		"eslint": "^10.2.1",
 		"eslint-config-xo": "^0.51.0",
