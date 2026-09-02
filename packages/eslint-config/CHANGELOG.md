@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/inclusive-design/linter-configs/compare/eslint-config@v1.0.0...eslint-config@v1.1.0) (2026-09-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-xo to v2 ([809ea9a](https://github.com/inclusive-design/linter-configs/commit/809ea9a52291adbaf26e1d4df34fdc15572ecbe3))
+
 ## [1.0.0](https://github.com/inclusive-design/linter-configs/compare/eslint-config@v0.5.0...eslint-config@v1.0.0) (2026-08-14)
 
 
