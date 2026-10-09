@@ -28,6 +28,6 @@
 		"@eslint/markdown": "^8.0.1",
 		"eslint": "^10.2.1",
 		"eslint-config-xo": "^2.0.0",
-		"eslint-plugin-jsdoc": "^64.0.0"
+		"eslint-plugin-jsdoc": "^65.0.0"
 	}
 }
