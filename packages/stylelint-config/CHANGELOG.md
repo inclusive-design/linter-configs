@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/inclusive-design/linter-configs/compare/stylelint-config@v0.1.2...stylelint-config@v0.2.0) (2026-11-09)
+
+
+### Features
+
+* **deps:** update dependency stylelint to v18 ([1435429](https://github.com/inclusive-design/linter-configs/commit/143542907c542033454f7687938ce664ebb08e5d))
+
 ## [0.1.2](https://github.com/inclusive-design/linter-configs/compare/stylelint-config@v0.1.1...stylelint-config@v0.1.2) (2026-05-01)
 
 
