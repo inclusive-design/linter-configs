@@ -25,7 +25,7 @@
 	"homepage": "https://github.com/inclusive-design/linter-configs/blob/main/packages/stylelint-config/README.md",
 	"dependencies": {
 		"stylelint": "^18.0.0",
-		"stylelint-config-standard": "^40.0.0",
+		"stylelint-config-standard": "^41.0.0",
 		"stylelint-order": "^8.0.0"
 	}
 }
