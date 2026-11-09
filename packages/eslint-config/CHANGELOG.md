@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/inclusive-design/linter-configs/compare/eslint-config@v1.1.0...eslint-config@v1.2.0) (2026-11-09)
+
+
+### Features
+
+* **deps:** update dependency eslint-config-xo to v7 ([cf2dfd1](https://github.com/inclusive-design/linter-configs/commit/cf2dfd1055800050a324eb0101cfcaa6512c0ce2))
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jsdoc to v65 ([#46](https://github.com/inclusive-design/linter-configs/issues/46)) ([2206404](https://github.com/inclusive-design/linter-configs/commit/2206404d56797bec6b948f9702910875092bc21e))
+
 ## [1.1.0](https://github.com/inclusive-design/linter-configs/compare/eslint-config@v1.0.0...eslint-config@v1.1.0) (2026-09-02)
 
 
